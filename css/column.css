@@ -1,0 +1,479 @@
+@charset 'utf-8';
+#headline {
+    min-width: 1263px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../img/headline.jpg) no-repeat center;
+}
+
+#headline .center {
+    width: 1263px;
+    margin: 0 auto;
+}
+
+#headline hgroup {
+    padding: 100px 0 0 50px;
+}
+
+#headline hgroup h2 {
+    font-size: 36px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+
+#headline hgroup h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #eee;
+}
+
+#container {
+    width: 1263px;
+    margin: 5px auto;
+}
+
+#container .sidebar {
+    width: 350px;
+    float: right;
+}
+
+#container .sidebox {
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#container .sidebox h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 2px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+}
+
+#container .tag {
+    margin: 10px 0;
+}
+
+#container .tag li {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #eee;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: 8px;
+}
+
+#container .tag a {
+    display: block;
+    color: #999;
+}
+
+#container .tag a:hover {
+    background-color: #458b00;
+    color: #fff;
+}
+
+#container .figure {
+    padding: 10px 0;
+}
+
+#container figure {
+    display: inline-block;
+    padding: 4px;
+    color: #999;
+}
+
+#container .box {
+    margin: 10px 0;
+}
+
+#container .box a {
+    width: 150px;
+    height: 40px;
+    margin: 2px 0;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #eee;
+    margin: 0 0 20px 0;
+    color: #999;
+    text-align: left;
+    text-indent: 30px;
+}
+
+#container .box a:hover {
+    background-color: #458b00;
+    color: #fff;
+}
+
+#container .box .trea1 {
+    background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+
+#container .box .trea2 {
+    background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+
+#container .box .trea3 {
+    background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+
+#container .box .trea4 {
+    background: #eee url(../img/trea4.png) no-repeat 10px center;
+}
+
+#container .list {
+    width: 900px;
+    float: left;
+}
+
+#container .infor {
+    height: 45px;
+    line-height: 45px;
+    background-color: #eee;
+    margin: 0 0 20px 0;
+}
+
+#container .infor .left {
+    display: inline-block;
+    float: left;
+}
+
+#container .information .left li {
+    display: inline-block;
+    width: 150px;
+    height: 43px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#container .information .left li:first-child {
+    background-color: #fff;
+    border-top: 2px solid #458b00;
+    left: 2px;
+}
+
+#container .information .left li a {
+    color: #333;
+}
+
+#container .infor .right {
+    display: inline-block;
+    float: right;
+    padding: 0 20px 0 0;
+}
+
+#container .information .right li {
+    /*background-color: #458b00;*/
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#container.information .right li a {
+    padding: 3px 8px;
+    color: #333;
+}
+
+#container .information .right a.selected,
+#container .information .right a:hover {
+    background-color: #458b00;
+    color: #fff;
+}
+
+#container .tour {
+    width: 908px;
+    padding: 0;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+#container .tour figcaption {
+    float: right;
+    width: 528px;
+}
+
+#container .tour hgroup {
+    width: 300px;
+}
+
+#container .tour h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    padding: 10px 0 10px 25px;
+}
+
+#container .tour h3 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #666;
+    padding: 10px 0 10px 25px;
+}
+
+#container .tour ol {
+    padding: 0 0 0 25px;
+    color: #666;
+    line-height: 2px;
+}
+
+#container .tour mark {
+    background-color: #fff;
+    border: 1px solid #458b00;
+    border-radius: 4px;
+    padding: 0 5px;
+    line-height: 2;
+}
+
+
+/*价格*/
+
+#container .tour .buy {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 50px 0 0 0;
+}
+
+#container .tour .buy .price {
+    font-size: 20px;
+    color: #f60;
+}
+
+#container .tour .buy .price strong {
+    font-size: 36px;
+}
+
+#container .tour .buy .price s {
+    font-size: 16px;
+    color: #999;
+}
+
+#container .tour .buy .reserve a {
+    display: block;
+    width: 152px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #f60;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+#container .tour .type {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+    background-color: #59b200;
+    text-align: center;
+}
+
+#container .tour .disc {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 52px;
+    height: 52px;
+    background: url(../img/disc.png) no-repeat;
+}
+
+#container .tour .disc span {
+    display: block;
+    width: 52px;
+    height: 52px;
+    text-indent: 5px;
+    padding: 5px 0 0 0;
+    transform: rotate(45deg);
+    color: #ff7a4d;
+}
+
+#container .information .more {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+}
+
+#container .tour footer {
+    width: 528px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    text-indent: 25px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+}
+
+#container .tour time {
+    color: #458b00;
+}
+
+#container .ticket {
+    color: #666;
+    font-size: 20px;
+}
+
+#container .ticket h2 {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #999;
+    padding: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#container .ticket .type {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+}
+
+#container .ticket .type mark {
+    color: #fff;
+    background-color: #458b00;
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin: 10px 0 10px 0;
+}
+
+#container .ticket .form p {
+    line-height: 3;
+}
+
+#container .ticket .form input {
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #666;
+    padding: 5px;
+    margin: 0 0 0 16px;
+    font-size: 18px;
+}
+
+#container .ticket .left {
+    display: inline-block;
+    width: 43%
+}
+
+#container .ticket .right {
+    display: inline-block;
+    width: 43%
+}
+
+#container .ticket .button {
+    display: inline-block;
+    width: 9%
+}
+
+#container .ticket .submit {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    background-color: #f60;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+}
+
+#container .ticket .new {
+    margin: 20px 0 0 0;
+}
+
+#container .ticket .new ul {
+    margin: 20px 0 0 0;
+}
+
+#container .ticket .new li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#container .ticket .new li:first-child {
+    padding-left: 0;
+}
+
+#container .ticket .new li:nth-child(2) {
+    background-color: #458b00;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#container .ticket table {
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+#container .ticket th {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#container .ticket td {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#container .ticket tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+#container .ticket tr:hover {
+    background-color: #eee;
+}
+
+#container .ticket .price {
+    color: #f60;
+}
+
+#container .ticket .more {
+    color: #666;
+}
+
+#container .ticket .reserve {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background-color: #f60;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    /*设置边框input的边框为无*/
+    border: none;
+}
